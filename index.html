@@ -320,6 +320,9 @@
                                 <div class="meter orange">
                                     <span style="width: 30%"><span>Linq</span></span>
                                 </div>
+                                <div class="meter orange">
+                                    <span style="width: 30%"><span>MicroServices</span></span>
+                                </div>
                                 <div class="meter emerald">
                                     <span style="width: 70%"><span>Image & Signal Processing</span></span>
                                 </div>                                
@@ -330,10 +333,10 @@
                                     <span style="width: 60%"><span>Machine Learning & AI</span></span>
                                 </div>                                
                                 <div class="meter wisteria">
-                                    <span style="width: 30%"><span>Git</span></span>
+                                    <span style="width: 70%"><span>Git</span></span>
                                 </div>
                                 <div class="meter carrot">
-                                    <span style="width: 30%"><span>API</span></span>
+                                    <span style="width: 70%"><span>API</span></span>
                                 </div>
                                 <div class="break"></div>
                                 
@@ -342,7 +345,41 @@
                     </section>
                 </div>
               <!-- End Resume Tab Data -->
-              <!-- Contact Tab Data -->
+              <!-- services  tab starts -->
+            <div id="Opentowork">
+                <div class="services_page">
+                <div class="services_container">
+                    <div class="services_box">
+                        <i class="fas fa-tablet-alt"></i>
+                        <h3 class="services_title">Dotnet Developer</h3>
+                        <p class="services_text">Strong foundation in object-oriented programming (OOP) and well-versed in various .NET technologies, such as ASP.NET Core
+                        MVC, and Web API. Additionally, familiar with database management systems like SQL Server and have
+                        experience in integrating these databases with different applications. </p>
+                    </div>
+                    <div class="services_box">
+                        <i class="fas fa-globe"></i>
+                        <h3 class="services_title">Firmware Engineer</h3>
+                        <p class="services_text">Responsible for designing, developing, and maintaining embedded software that controls and operates electronic devices.Proficient in programming languages such as C and C++. Have a solid understanding of hardware architecture and be able to optimize code for resource-constrained environments. </p>
+                    </div>
+                </div>
+                <div class="services_container">
+                    <div class="services_box">
+                        <i class="fas fa-pencil-ruler"></i>
+                        <h3 class="services_title">IOT Engineer</h3>
+                        <p class="services_text">Designing IoT architectures, Integrating sensors and actuators into devices, developing firmware and software for IoT
+                        applications, and implementing communication protocols for seamless data exchange between devices and cloud platforms.
+                        Also focus on ensuring data security, privacy, and scalability in IoT solutions.</p>
+                    </div>
+                    <div class="services_box">
+                        <i class="fas fa-drafting-compass"></i>
+                        <h3 class="services_title">Signal Engineer</h3>
+                        <p class="services_text">Designing, implementing, and maintaining signaling systems used in various devices. Conduct necessary filters in the signal to get the correct information and also make the data readable </p>
+                    </div>
+                </div>
+                </div>
+                
+            </div>
+              <!-- services tab ends here  -->
 			  <!-- Publication Tab Data -->
                 <div id="publication">
                     <div class="info">
@@ -414,8 +451,51 @@
         </footer>
     </div><!-- #main -->
 </div><!-- #main-container -->
-
-
-
 </body>
+<style>
+    /* Services Page */
+
+.services_page .services_container {
+  margin: 1.2rem 0.4rem 0.4rem 0.4rem;
+  display: flex;
+}
+
+.services_page .services_container .services_box {
+  width: 50%;
+  margin: 0.6rem;
+  border: 0.1rem solid var(--brand-color);
+  border-radius: 0.4rem;
+  padding: 0.6rem;
+  text-align: justify;
+  /* cursor: pointer; */
+}
+.services_page .services_container .services_box:hover {
+  background-color: var(--brand-color);
+  transition: 0.3s;
+}
+.services_page .services_container .services_box:hover i,
+.services_page .services_container .services_box:hover .services_title {
+  color: red;
+  transition: 0.3s;
+}
+
+.services_box i {
+  color: var(--brand-color);
+  font-size: 1.5rem;
+  margin: 0.3rem 0;
+}
+
+.services_box .services_title {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  color: var(--brand-color);
+  margin: 0.4rem 0;
+}
+
+.services_box .services_text {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+</style>
 </html>
