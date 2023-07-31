@@ -292,7 +292,7 @@ ul.sub_list2 li.in_sub_list2 {
 /* HYPERLINKS */
 a {
   text-decoration: none;
-  color: #e74c3c;
+  color: #666;
   -webkit-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear,
     background-color 0.1s linear;
   -moz-transition: color 0.1s linear, border 0.1s linear, opacity 0.1s linear,
@@ -309,7 +309,7 @@ a:focus,
 a:active {
   text-decoration: none;
   border: none;
-  color: #c0392b;
+  color: #e74c3c;
 }
 /* MEDIA */
 figure {
